@@ -13,6 +13,9 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        sans: ['Inter', 'system-ui', 'sans-serif'],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -56,6 +59,20 @@ export default {
           "accent-foreground": "hsl(var(--sidebar-accent-foreground))",
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
+        },
+        status: {
+          issued: "hsl(var(--status-issued))",
+          "issued-bg": "hsl(var(--status-issued-bg))",
+          pending: "hsl(var(--status-pending))",
+          "pending-bg": "hsl(var(--status-pending-bg))",
+          rejected: "hsl(var(--status-rejected))",
+          "rejected-bg": "hsl(var(--status-rejected-bg))",
+        },
+        type: {
+          bonafide: "hsl(var(--type-bonafide))",
+          transfer: "hsl(var(--type-transfer))",
+          completion: "hsl(var(--type-completion))",
+          other: "hsl(var(--type-other))",
         },
       },
       borderRadius: {
